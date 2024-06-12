@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Exo 2", sans-serif;
+}
+
+.logo {
+    background-color: darkviolet;
+    height: 6rem;
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 4rem;
+    padding: 1px 15px 0px 65px;
+}
+
+.KhanaDotCom {
+    color: white;
+    padding-left: 25rem;
+    font-size: 3rem;
+    padding-right: 18rem;
+}
+
+.login {
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+    padding-left: 10rem;
+}
+
+.header2 {
+    display: flex;
+    gap: 27rem;
+    background-color: blueviolet;
+}
+
+.three_line img {
+    padding: 7px 0px 0px 20px;
+}
+.three_line img:hover {
+    cursor: pointer;
+}
+
+.search_bar {
+    display: flex;
+    margin: 10px;
+}
+
+.search {
+    height: 2rem;
+    width: 20rem;
+    margin-right: 15px;
+    padding-left: 10px;
+    font-size: 15px;
+    border-radius: 10px;
+}
+
+.search_btn {
+    height: 35px;
+    width: 4rem;
+    background-color: darkviolet;
+    color: white;
+    font-size: 15px;
+    border-radius: 10px;
+}
+.search_btn:hover {
+    cursor: pointer;
+    background-color: blueviolet;
+}
+
+.filter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#filterbtn {
+    height: 35px;
+    width: 5rem;
+    color: white;
+    background-color: darkviolet;
+    font-size: 18px;
+    border-radius: 10px;
+}
+#filterbtn:hover {
+    cursor: pointer;
+    background-color: blueviolet;
+}
+
+/* Dropdown styling */
+.dropdown-menu {
+    display: none; /* Initially hide the dropdown */
+    position: absolute;
+    background-color: white;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    border-radius: 10px;
+    padding: 10px;
+    min-width: 150px; /* Ensure the dropdown has a minimum width */
+}
+
+/* Specific positions for dropdowns */
+#three-line-dropdown {
+    top: 60px; /* Adjust to align under the three-line menu */
+    left: 20px; /* Adjust to align with the menu icon */
+}
+
+#filter-dropdown {
+    top: 60px; /* Adjust to align under the filter button */
+    right: 20px; /* Adjust to align with the filter button */
+}
+
+/* Style for dropdown items */
+.dropdown-menu a, .dropdown-menu label {
+    display: block;
+    padding: 8px 12px;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+.dropdown-menu a:hover, .dropdown-menu label:hover {
+    background-color: lightgray;
+}
+
+
+.cart h2 {
+    text-align: center;
+    margin: 30px 0px;
+}
+.cart-items{
+    margin: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6rem;
+}
+.lines {
+    color: black;
+    text-align: center;
+}
+.cart-item button {
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    cursor: pointer;
+}
+.cart-item button:hover {
+    background-color: darkred;
+}
+
+
+/* Footer Styling */
+footer {
+    background-color: darkviolet; /* Dark background for the footer */
+    color: white; /* White text color for better contrast */
+    padding: 20px 0; /* Padding for the top and bottom */
+    text-align: center; /* Center align the text */
+}
+
+.footer-container {
+    display: flex; /* Flexbox layout */
+    justify-content: space-around; /* Evenly space out the sections */
+    align-items: flex-start; /* Align items at the start */
+    padding: 20px;
+    max-width: 1200px; /* Maximum width for the content */
+    margin: auto; /* Center the footer content */
+}
+
+.footer-section {
+    flex: 1; /* Allow sections to grow and shrink equally */
+    margin: 10px; /* Margin around each section */
+}
+
+.footer-section h2 {
+    font-size: 1.5em; /* Font size for section titles */
+    margin-bottom: 15px; /* Space below the titles */
+}
+
+.footer-section p {
+    font-size: 1em; /* Font size for the text */
+    line-height: 1.5; /* Line height for readability */
+}
+
+.social-icon {
+    display: inline-block; /* Inline block to place icons side by side */
+    margin: 0 10px; /* Margin around the social icons */
+}
+
+.social-icon img {
+    width: 30px; /* Width of social media icons */
+    height: 30px; /* Height of social media icons */
+}
+
+.footer-bottom {
+    background-color: blueviolet; /* Slightly darker background for the bottom */
+    padding: 10px 0; /* Padding for the bottom section */
+}
+
+.footer-bottom p {
+    margin: 0; /* Remove default margin */
+    font-size: 0.9em; /* Font size for the bottom text */
+}
+

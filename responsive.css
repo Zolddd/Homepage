@@ -1,0 +1,288 @@
+/* Media Query for Large Screens (up to 1500px) */
+@media (max-width: 1500px) {
+    /* Header and Logo */
+    .logo img {
+        height: 60px; /* Increase logo size for larger screens */
+    }
+
+    .KhanaDotCom {
+        font-size: 3rem; /* Increase font size for the brand name */
+    }
+
+    /* Navigation and Search Bar */
+    .header2 {
+        gap: 2rem; /* Increase gap between elements */
+    }
+
+    .search {
+        width: 300px; /* Increase width of the search bar */
+    }
+
+    /* Cart Items */
+    .cart {
+        margin: 0 auto; /* Center align cart items */
+    }
+
+    /* Footer */
+    .footer-container {
+        justify-content: space-between; /* Distribute sections evenly */
+    }
+
+    .footer-section {
+        flex: 1; /* Allow sections to grow and shrink equally */
+    }
+
+    /* Cart Display */
+    #cart-display {
+        right: 20px; /* Adjust padding from the right */
+        padding: 20px; /* Increase padding */
+    }
+}
+/* Media Query for Screens up to 1250px Width */
+@media (max-width: 1250px) {
+    /* Header and Logo */
+    .logo img {
+        height: 50px; /* Adjust logo size */
+    }
+
+    .KhanaDotCom {
+        font-size: 2.5rem; /* Adjust brand name font size */
+    }
+
+    /* Navigation and Search Bar */
+    .header2 {
+        gap: 1.5rem; /* Adjust gap between elements */
+    }
+
+    .search {
+        width: 250px; /* Adjust search bar width */
+    }
+
+    /* Cart Items */
+    .cart {
+        margin: 0 auto; /* Center align cart items */
+    }
+
+    /* Footer */
+    .footer-section {
+        flex: 1; /* Allow sections to grow and shrink equally */
+    }
+}
+
+
+@media (max-width: 900px) {
+    /* Adjust header and logo for medium screens */
+    .logo {
+        padding: 10px;
+    }
+
+    .KhanaDotCom {
+        font-size: 2rem; /* Slightly smaller font size */
+        padding: 10px;
+    }
+
+    .login {
+        font-size: 18px; /* Slightly smaller font size */
+    }
+
+    .header2 {
+        gap: 1rem; /* Smaller gap */
+        padding: 10px;
+    }
+
+    .search_bar {
+        margin: 5px 0;
+    }
+
+    .search {
+        width: calc(100% - 5rem); /* Adjust for button */
+    }
+
+    #filterbtn {
+        width: auto; /* Allow button to resize */
+    }
+
+    .cart-items {
+        gap: 2rem; /* Less gap */
+        padding: 10px;
+    }
+
+    .cart-item .lines {
+        padding: 10px;
+    }
+
+    .footer-container {
+        padding: 10px;
+    }
+
+    .footer-section {
+        margin: 10px 0; /* Adjust spacing */
+    }
+}
+/* Media Query for Small Devices (up to 600px) */
+@media (max-width: 600px) {
+    /* Adjust header and logo for smaller screens */
+    .logo {
+        padding: 5px;
+    }
+
+    .KhanaDotCom {
+        font-size: 1.5rem; /* Smaller font size */
+        padding: 5px;
+    }
+
+    .login {
+        font-size: 16px; /* Smaller font size */
+    }
+
+    .header2 {
+        gap: 0.5rem; /* Smaller gap */
+        padding: 5px; /* Less padding */
+    }
+
+    .search_bar {
+        margin: 5px 0;
+    }
+
+    .search {
+        width: calc(100% - 4rem); /* Adjust for button */
+    }
+
+    #filterbtn {
+        width: 4rem; /* Adjust button size */
+    }
+
+    .cart-items {
+        gap: 1rem; /* Less gap */
+        padding: 5px;
+    }
+
+    .cart-item .lines {
+        padding: 5px;
+    }
+
+    .footer-container {
+        padding: 5px;
+    }
+
+    .footer-section {
+        margin: 5px 0; /* Less margin */
+    }
+}
+/* Media Query for Screens up to 500px Width */
+@media (max-width: 500px) {
+    /* Logo */
+    .logo img {
+        height: 40px; /* Reduce logo size */
+    }
+
+    .KhanaDotCom {
+        font-size: 2rem; /* Adjust brand name font size */
+        padding-left: 0; /* Remove left padding for brand name */
+    }
+
+    /* Navigation */
+    .header2 {
+        flex-direction: column; /* Stack elements vertically */
+        gap: 1rem; /* Adjust gap between elements */
+    }
+
+    /* Search Bar */
+    .search {
+        width: 100%; /* Make search bar full width */
+    }
+
+    .search_btn {
+        width: 100px; /* Adjust search button width */
+    }
+
+    /* Cart Items */
+    .cart {
+        margin: 0 auto; /* Center align cart items */
+    }
+
+    /* Footer */
+    .footer-container {
+        flex-direction: column; /* Stack footer sections vertically */
+        gap: 1rem; /* Adjust gap between footer sections */
+    }
+
+    .footer-section {
+        text-align: center; /* Center align footer section content */
+    }
+}
+@media (max-width: 350px) and (min-width: 200px) {
+    /* Add your responsive styles here */
+    body {
+        font-size: 14px;
+    }
+
+    .logo img {
+        height: 3rem;
+    }
+
+    .KhanaDotCom {
+        padding-left: 10rem;
+        font-size: 2rem;
+        padding-right: 8rem;
+    }
+
+    .login {
+        font-size: 20px;
+        padding-left: 5rem;
+    }
+
+    .header2 {
+        gap: 15rem;
+    }
+
+    .search {
+        width: 15rem;
+    }
+
+    #filterbtn {
+        width: 4rem;
+        font-size: 15px;
+    }
+
+    .cart h2 {
+        margin: 20px 0px;
+        font-size: 1.5rem;
+    }
+
+    .cart-items {
+        margin: 30px;
+        gap: 3rem;
+    }
+
+    .lines {
+        font-size: 0.8rem;
+    }
+
+    .cart-item button {
+        padding: 3px;
+    }
+
+    .footer-section {
+        margin: 5px;
+    }
+
+    .footer-section h2 {
+        font-size: 1.2em;
+        margin-bottom: 10px;
+    }
+
+    .footer-section p {
+        font-size: 0.8em;
+    }
+
+    .social-icon img {
+        width: 25px;
+        height: 25px;
+    }
+
+    .footer-bottom p {
+        font-size: 0.8em;
+    }
+}
+
